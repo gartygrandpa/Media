@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Media</title>
+  <style>
+    :root {
+      color-scheme: dark;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f12;
+      color: #e8e8ed;
+      line-height: 1.5;
+      padding: 1.5rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    h1 {
+      font-size: 1.6rem;
+      margin-bottom: 0.35rem;
+      color: #fff;
+    }
+    .subtitle {
+      color: #9a9aab;
+      margin-bottom: 1.5rem;
+      font-size: 0.95rem;
+    }
+    .count {
+      color: #7c7c8a;
+      font-size: 0.85rem;
+      margin-bottom: 1.25rem;
+    }
+    ul {
+      list-style: none;
+      display: grid;
+      gap: 0.4rem;
+    }
+    a {
+      display: block;
+      padding: 0.65rem 0.9rem;
+      background: #1a1a22;
+      border: 1px solid #2a2a35;
+      border-radius: 8px;
+      color: #7dd3fc;
+      text-decoration: none;
+      transition: background 0.15s, border-color 0.15s;
+    }
+    a:hover {
+      background: #22222e;
+      border-color: #3b82f6;
+      color: #bae6fd;
+    }
+    a .name {
+      font-weight: 600;
+      color: #f1f5f9;
+      display: block;
+      margin-bottom: 0.15rem;
+    }
+    a .url {
+      font-size: 0.78rem;
+      color: #64748b;
+      word-break: break-all;k
+    
